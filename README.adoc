@@ -12,7 +12,7 @@ The Asciidoc file then has the image tag and file name pasted in for use.
 
 The images directory may be customized within the settings for the plugin.
 
-NOTE: The imagesdir attribute (:imagesdir:) must be defined in the Asciidoc document.
+NOTE: The imagesdir attribute (`:imagesdir:`) must be defined in the Asciidoc document.
 
 Originally forked from https://github.com/bigyuki/markdown-image-helper[markdown-image-helper].
 
