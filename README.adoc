@@ -1,0 +1,39 @@
+= AsciiDoc Image Helper
+
+image:https://img.shields.io/apm/v/asciidoc-image-helper.svg["Atom Package", link=https://atom.io/packages/asciidoc-image-helper]
+image:https://img.shields.io/apm/dm/asciidoc-image-helper.svg["Atom Package Downloads"' link=https://atom.io/packages/asciidoc-image-helper]
+image:https://travis-ci.org/bwklein/asciidoc-image-helper.svg?branch=master["Build Status", link="https://travis-ci.org/bwklein/asciidoc-image-helper"]
+image:http://img.shields.io/badge/license-MIT-blue.svg?style=flat["MIT License", https://github.com/bwklein/asciidoc-image-helper/blob/master/LICENSE.adoc]
+
+This is an Atom plugin for AsciiDoc grammar.
+The plugin creates an image file named after the asciidoc file it is pasted into with a unique hash appended. 
+The file is created in a directory relative to path of the document (`./images` by default).
+The Asciidoc file then has the image tag and file name pasted in for use.
+
+The images directory may be customized within the settings for the plugin.
+
+NOTE: The imagesdir attribute (:imagesdir:) must be defined in the Asciidoc document.
+
+Originally forked from https://github.com/bigyuki/markdown-image-helper[markdown-image-helper].
+
+== Usage
+
+. Take a screenshot or copy any image to the clipboard.
+. Paste it into Atom AsciiDoc editor.
+. See that a directory named `images` was used (or created if it did not exist), the directory has a png file, and a url was inserted.
+
+== Install
+
+Settings/Preferences > Install > Search for `asciidoc-image-helper`
+
+Or
+
+[source,bash]
+----
+apm install asciidoc-image-helper
+----
+
+== Credits
+
+Special thank you to https://github.com/ldez[Ludovic Fernandez '_ldez_'] for turning this package into a legit project.
+I am learning alot from his pull requests.
